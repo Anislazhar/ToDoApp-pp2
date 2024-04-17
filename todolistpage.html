@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Data Section -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="To Do List" />
+    <meta
+      name="keywords"
+      content="to do list, daily tasks, to do tasks, routine tasks, work tasks, study tasks"
+    />
+    <!-- Connect with CSS style file -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Add Favicon -->
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+    <!-- Website page title -->
+    <title>Your To-do List Page | To-do List App</title>
+  </head>
+
+  <body>
+    <!-- The Main container to catch all -->
+    <div class="main-container">
+      <!-- Section for input (to write my task) and the button (to add this task) + add exit button (Exit and close) + 
+            label to guide the user -->
+      <div class="task-form-area">
+        <input id="exit-btn" type="submit" class="exit-sulp" value="Exit" />
+        <label for="my-task">Hi, Please Insert Your Task Below:</label>
+        <input type="text" class="my-text-input" id="my-task" />
+        <input type="submit" class="add-btn" value="Add New Task" />
+      </div>
+      <!-- Div to display all added tasks -->
+      <div class="my-all-tasks"></div>
+    </div>
+    <!-- Connect with JS file -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
