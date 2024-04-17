@@ -1,0 +1,272 @@
+/* Google Fonts = Lora */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Open+Sans:wght@400;700&family=Playfair+Display:wght@500&display=swap');
+
+/* Global Scope Variables */
+:root {
+    --main-background-color: #333333;
+    --border-radius-main-value: 20px;
+    --border-radius-for-buttons: 10px;
+}
+
+/* Global Rules */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Lora, sans-serif;
+    background-color: var(--main-background-color);
+}
+
+/* index.html Page CSS rules */
+.main-container {
+    height: 100vh;
+    position: relative;
+    padding: 10px;
+}
+
+.inside-container {
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: var(--border-radius-main-value);
+    box-shadow: 0 0 20px #000000 inset;
+}
+
+.main-container .inside-container img {
+    border-radius: var(--border-radius-main-value);
+    max-width: 100%;
+}
+
+.main-container .inside-container h2 {
+    padding-bottom: 10px;
+}
+
+.main-container .inside-container p {
+    padding: 10px 0;
+}
+
+.start,
+.close {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 5px;
+    bottom: -10px;
+    background-color: var(--main-background-color);
+    color: #ffffff;
+    border-radius: var(--border-radius-for-buttons);
+    text-transform: uppercase;
+    box-shadow: 0 0 20px #41ead4 inset;
+    cursor: pointer;
+    letter-spacing: 2.5px;
+}
+
+/* Media Rules for index.html page */
+@media screen and (max-width: 530px) {
+    .inside-container {
+        width: 200px;
+    }
+
+    .main-container .inside-container p {
+        font-size: 11px;
+    }
+
+    .main-container .inside-container h2 {
+        font-size: 15px;
+    }
+
+    .start,
+    .close {
+        width: 60px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+/* seeyoulater.html Page CSS rules */
+.main-container h3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 480px) {
+    .main-container h3 {
+        font-size: 12px;
+    }
+
+    canvas {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+canvas {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+/* todolistpage.html Page CSS rules */
+.task-form-area {
+    background-color: #cdcbcc;
+    padding: 15px;
+    border-radius: var(--border-radius-main-value);
+}
+
+.my-text-input {
+    padding: 15px;
+    width: 100%;
+    margin: 15px auto;
+    border: 1px solid #cdcbcc;
+    border-radius: var(--border-radius-main-value);
+}
+
+.my-text-input:focus {
+    outline: none;
+}
+
+.add-btn {
+    width: 115px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    background-color: var(--main-background-color);
+    color: #ffffff;
+    border-radius: var(--border-radius-for-buttons);
+    box-shadow: 0 0 20px #41ead4 inset;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.exit-sulp {
+    width: 50px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    background-color: var(--main-background-color);
+    color: #ffffff;
+    border-radius: var(--border-radius-for-buttons);
+    box-shadow: 0 0 20px #ff206e inset;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.my-all-tasks {
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: var(--border-radius-main-value);
+    padding: 20px;
+}
+
+.task-form-area label {
+    display: block;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.my-all-tasks .the-new-task {
+    background: #cdcbcc;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: var(--border-radius-main-value);
+    font-size: 18px;
+    overflow: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .my-all-tasks .the-new-task {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-all-tasks .del-btn {
+        margin-top: 15px;
+    }
+}
+
+.my-all-tasks .del-btn {
+    width: 60px;
+    height: 30px;
+    border-radius: var(--border-radius-for-buttons);
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: #000000;
+    box-shadow: 0 0 30px #ff206e inset;
+}
+
+.clear-all-btn {
+    width: 115px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    background-color: #333333;
+    color: #ff206e;
+    border-radius: var(--border-radius-for-buttons);
+    cursor: pointer;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    border-color: #ff206e;
+}
+
+/* 404.html Page CSS rules */
+.main-container h1,
+.main-container h4,
+.main-container h5 {
+    position: absolute;
+    left: 50%;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.main-container h1 {
+    top: 10%;
+    transform: translateX(-50%);
+}
+
+.main-container h4 {
+    top: 20%;
+    transform: translateX(-50%);
+}
+
+.main-container h5 {
+    top: 30%;
+    transform: translateX(-50%);
+}
+
+.main-container h5 a {
+    color: #41ead4;
+    text-decoration: none;
+    border-bottom: 0.5px solid #41ead4;
+    padding-bottom: 1px;
+}
+
+@media screen and (max-width: 522px) {
+
+    .main-container h1,
+    .main-container h4 {
+        font-size: 15px;
+    }
+
+    .main-container h5 {
+        font-size: 10px;
+    }
+}
