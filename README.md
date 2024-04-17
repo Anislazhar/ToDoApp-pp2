@@ -1,8 +1,8 @@
 # To-Do App
 
-<!-- The to-do App is live, please [Click Here](add link) to check It. -->
+The to-do App is live, please [Click Here](https://anislazhar.github.io/ToDoApp-pp2/) to check It.
 
-<!-- ![Site view across devices](add image) -->
+![Site view across devices](assets/readme-images/todolistapp-amiresponsive.png)
 
 ## Table of Contents
 
@@ -128,21 +128,21 @@ The start interface image conveys organization and calmness, encouraging users t
 
   - Result for index.html
 
-    <!-- ![W3C html validator Index page](add image) -->
+    ![W3C html validator Index page](assets/readme-images/index-page-checker.png)
 
   - Result for todolistpage.html
 
-    <!-- ![W3C html validator Main App page](add image) -->
+    ![W3C html validator Main App page](assets/readme-images/mainapp-page-checker.png)
 
   - Result for seeyoulater.html
 
-    <!-- ![W3C html validator See You Later page](add image) -->
+    ![W3C html validator See You Later page](assets/readme-images/seeyoulater-checker.png)
 
 - CSS (By using [Jigsaw validator](https://jigsaw.w3.org/css-validator/))
 
   - Result for style.css
 
-    <!-- ![Jigsaw validator Result](add image) -->
+    ![Jigsaw validator Result](assets/readme-images/css-checker.png)
 
 - JavaScript (By using [jshint](https://jshint.com/))
 
@@ -211,12 +211,12 @@ The start interface image conveys organization and calmness, encouraging users t
 
 - Deployed to GitHub Pages.
 - Source branch selected in repository settings.
-- The live link can be found Here [to-do List App]() .
+- The live link can be found Here [to-do List App](https://anislazhar.github.io/ToDoApp-pp2/) .
 
 ### How to clone
 
 - Copy repository link.
-<!-- - Go to the following repository on GitHub: add link. -->
+- Go to the following repository on GitHub: https://github.com/Anislazhar/ToDoApp-pp2.
 - Clone to local machine in VS-Code terminal.
 
 ## Credits
